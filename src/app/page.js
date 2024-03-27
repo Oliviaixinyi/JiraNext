@@ -28,7 +28,7 @@ const LoginPage = () => {
         }}
       >
         <div>
-          <FaJira style={{ fontSize: "1.5rem", color: "rgb(38, 132, 255);" }} />
+          <FaJira style={{ fontSize: "1.5rem", color: "rgb(38, 132, 255)" }} />
           <strong>Jira Software</strong>
         </div>
       </Header>

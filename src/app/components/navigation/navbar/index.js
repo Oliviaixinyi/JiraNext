@@ -15,7 +15,6 @@ import { Layout, Menu } from "antd";
 import HelpComponent from "../help";
 import { FaJira } from "react-icons/fa";
 
-import styles from "./Navbar.module.css";
 import Link from "next/link";
 
 const { Header, Content, Footer, Sider } = Layout;

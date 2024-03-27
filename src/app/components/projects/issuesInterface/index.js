@@ -12,7 +12,7 @@ export default function KanbanBoard() {
   });
 
   useEffect(() => {
-    fetch("http://localhost:3001/issues")
+    fetch("https://jira-data.onrender.com/issues")
       .then((response) => response.json())
       .then((data) => {
         const sortedIssues = data.reduce(

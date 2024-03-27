@@ -12,7 +12,7 @@ const IssuesTable = () => {
 
   useEffect(() => {
     const fetchIssues = async () => {
-      const response = await fetch("http://localhost:3001/issues");
+      const response = await fetch("https://jira-data.onrender.com/issues");
       const data = await response.json();
       setIssues(data);
     };
