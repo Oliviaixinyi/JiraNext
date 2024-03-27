@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project Alpha",
+      "description": "This is a sample project",
+      "issues": [1, 2, 3],
+      "created": "Xinyi Ai"
+    }
+  ],
+  "issues": [
+    {
+      "id": 1,
+      "title": "UI Design Overhaul",
+      "description": "Redesign user interfaces for better user experience.",
+      "status": "Open",
+      "projectId": 1,
+      "created": "Xinyi Ai",
+      "key": "UI-101"
+    },
+    {
+      "id": 2,
+      "title": "Implement Authentication",
+      "description": "Set up user authentication with JWT tokens.",
+      "status": "In Progress",
+      "projectId": 1,
+      "created": "Xinyi Ai",
+      "key": "BACK-204"
+    },
+    {
+      "id": 3,
+      "title": "Database Optimization",
+      "description": "Optimize database queries and indices for performance.",
+      "status": "Closed",
+      "projectId": 1,
+      "created": "Xinyi Ai",
+      "key": "DB-309"
+    },
+    {
+      "id": 4,
+      "title": "Setup CI/CD",
+      "description": "Configure continuous integration and deployment pipelines.",
+      "status": "Open",
+      "projectId": 1,
+      "created": "Xinyi Ai",
+      "key": "DEVOPS-412"
+    }
+  ]
+}

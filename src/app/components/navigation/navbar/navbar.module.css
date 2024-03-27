@@ -1,0 +1,17 @@
+Navbar.module.css .navbar {
+  background-color: white;
+}
+
+.layout .ant-layout-header {
+  background-color: white !important;
+  box-shadow: 0 2px 8px #f0f1f2;
+}
+
+/* .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover {
+  color: #1890ff;
+  border-bottom: 2px solid #1890ff;
+}
+
+.ant-menu-overflow-item {
+  background-color: white !important;
+} */

@@ -1,0 +1,12 @@
+/* styles.css */
+.customSelect .ant-select-selector {
+  border: none !important; /* Use important to override Ant styles */
+  box-shadow: 0px 0px 8px #ddd !important;
+}
+
+/* To remove border on focus */
+.customSelect .ant-select-focused .ant-select-selector,
+.customSelect .ant-select-selector:focus,
+.customselect .ant-select-open .ant-select-selector {
+  box-shadow: 0px 0px 8px #ddd !important; /* Maintain the same shadow if needed */
+}
