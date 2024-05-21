@@ -7,7 +7,7 @@ const IssuesList = () => {
   useEffect(() => {
     const fetchIssues = async () => {
       try {
-        const response = await fetch("https://jira-data.onrender.com/issues");
+        const response = await fetch("http://localhost:3001/issues");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
